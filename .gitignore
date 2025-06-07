@@ -1,26 +1,26 @@
-# Ignore common MATLAB backup and autosave files
-*.asv
-*.bak
-*.autosave
+# MATLAB generated files and folders
 
-# Ignore compiled or temporary MATLAB files
-*.mex*
+*.asv
+*.mexa64
+*.mexmaci64
+*.mexw64
+*.mexglx
+
+# Temporary files
 *.log
 *.mat
-*.mlappinstall
-
-# Simulink and model-related files
-*.slx
+*.fig
 *.mdl
-*.sldd
-*.mdlp
-*.slxp
-*.slxc
+*.slx
 
-# Ignore user and local settings
-*.user
-*.prj
+# Backup files
+*~
+*.bak
+*.tmp
 
-# macOS & Windows junk
-.DS_Store
-Thumbs.db
+# Code analysis cache
+codegen/
+slprj/
+sfprj/
+_grt_rtw/
+_ert_rtw/
