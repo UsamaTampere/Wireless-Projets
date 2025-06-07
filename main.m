@@ -1,12 +1,3 @@
-% Create folders if they don't exist
-if ~exist('images', 'dir')
-    mkdir('images');
-end
-
-if ~exist('output', 'dir')
-    mkdir('output');
-end
-
 clc; clear; close all;
 
 %% 2.1 Transmitter
