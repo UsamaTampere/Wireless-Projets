@@ -1,0 +1,26 @@
+# Ignore common MATLAB backup and autosave files
+*.asv
+*.bak
+*.autosave
+
+# Ignore compiled or temporary MATLAB files
+*.mex*
+*.log
+*.mat
+*.mlappinstall
+
+# Simulink and model-related files
+*.slx
+*.mdl
+*.sldd
+*.mdlp
+*.slxp
+*.slxc
+
+# Ignore user and local settings
+*.user
+*.prj
+
+# macOS & Windows junk
+.DS_Store
+Thumbs.db
